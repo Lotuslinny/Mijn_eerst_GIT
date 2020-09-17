@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: floralwhite;
+}
+
+h1 {
+  margin-left: 2em;
+}
+.nav-menu {
+  position: relative;
+  width: 12em;
+  height: 14em;
+  background-color: darkgrey;
+  margin-left: 10em;
+  margin-bottom: 0em;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1000;
+ }
+
+#navigation-toggle {
+  position: absolute;
+  visibility: hidden;     
+  width: 9.5em;
+  height: 12.5em;
+  margin-left: 8em; 
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+ul {
+  margin-top: 0em;
+} 
+
+#navigation-toggle li {
+list-style: none;
+}
+
+.nav-toggle-red {
+  color: #e60000;
+  background-color: #000000;
+  width: 11em;
+  height: 2em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+}
+
+.nav-toggle-blue {
+  color: #00b8e6;
+  background-color: #262626 ;
+  width: 11em;
+  height: 2em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+}
+
+.nav-toggle-green {
+  color: #2eb82e;
+  background-color: #424242;
+  width: 11em;
+  height: 2em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+}
+
+.nav-toggle-yellow {
+  color: #ffff00;
+  background-color: #999999;
+  width: 11em;
+  height: 2em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  margin-right: 8em;
+}
+
+.nav-toggle-brown {
+  color: #332600;
+  background-color:#e6e6e6;
+  width: 11em;
+  height: 2em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+}
+
+
+
